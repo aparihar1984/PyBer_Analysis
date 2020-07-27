@@ -1,1 +1,13 @@
 # PyBer_Analysis
+# Overview of the Analysis/Purpose
+Using our knowledge of Python and Pandas, Omar and I were given the task of creating both a summary table DataFrame and a multiple line plot/graph of all the ride sharing data between three different city types.  The three city types for this project were "Rural", "Suburban", and "Urban", while the multiple line plot covered all weekly fares between January and April 2019.
+
+# Results
+When looking at the pyber_summary DataFrame, we can see that the number of "Total Rides", "Total Drivers", and "Total Fares" is far higher in urban areas (1625, 2405, and $39,854.38) than in rural areas (125, 78, and $4327.93) for all three, with suburban rides, drivers, and fares (625, 490, and $19,356.33) coming in the middle.  Given the vast population differences between rural areas and urban areas, this result is not very surprising.  
+
+However the opposite is true when looking at the "Average Fare Per Ride" and the "Average Fare Per Driver".  The average fares per ride ($34.62 vs $24.53) and driver ($55.49 vs $16.57) between rural and urban areas showed that the averages for both were much higher in rural areas than in urban areas.  Suburban average fares per ride and driver ($30.97, and $39.50) were once again in between the two other city types.  The reason for this reversal could be because transportation in rural areas is a very valuable commodity due to the fact that they provide service to people who more than likely have no other means of travel, thus higher prices are charged.
+
+When looking at the multiple line graph which plotted the sum of all fares on a weekly basis for four months, we can see a correlation with the "totals" from the pyber_summary DataFrame.  Every week between the start of January 2019 and the end of April 2019 shows that urban areas have the highest total fares, followed by suburban areas and finally rural areas.  The total weekly fares every week are in that same order, and only during one week are the weekly fares even close to each other.
+
+# Summary
+Three possible recommendations that can be made to address any disparities between the city types include increasing the number of total drivers avaliable in rural and suburban areas (more so in rural areas), increasing the fare prices in rural and suburban areas without increasing the number of total drivers in each area (again more so in rural areas), and perhaps marketing the product better in rural and suburban areas so people in those areas see the benefits to this type of transportation and will use it more often in the future over other modes of transportation, which will subsequently increase the weekly fares for those two city types.
